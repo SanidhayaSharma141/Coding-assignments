@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms check</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <h1>This is a trial form</h1>
+        <div>
+            <label for="name">enter your name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="car">enter your choice for car</label>
+            <select name="mycar" id="car">
+                <option value="swf">swift</option>
+                <option value="alto">alto</option>
+                <option value="wagonr">wagonr</option>
+                <option value="brezza">brezza</option>
+                <option value="tata nexon">tata nexon</option>
+            </select>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <label for="married">Married?</label>
+            <input type="checkbox" name="maritalstatus" id="married" checked>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <label for="gender">Gender</label>
+            <br>
+            Male<input type="radio" name="gender" id="gender"> female<input type="radio" name="gender" id="gender">
+            other<input type="radio" name="gender" id="gender">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <div>
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>

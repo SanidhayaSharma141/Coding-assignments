@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>this is html forms tutorial</h1>
+    <form action="backend.php">
+        <label for="name">Name</label><!--i ll be able to enter tapping on name at html site -->
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="swf">swift</option>
+                <option value="ind">indica </option>
+                <option value="brezza" >brezza</option>
+                <option value="maruti 800" selected>Maruti 800</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus"><!--heree can also be used as 10 ki power something-->
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked><!--checked before arrow here if you want default as checked-->
+        </div>
+        <br>
+        <div>
+            write about yourself: <br><textarea name="myText" id="" cols="90" rows="1"></textarea>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+           <input type="submit" value="Submit now"><!--alt key+downward arroy key will take the selected text downwards-->
+        </div>
+        <br>
+        <div>
+           <input type="reset" value="reset now"><!--alt key+downward arroy key will take the selected text downwards-->
+        </div>
+    </form>
+</body>
+</html>
